@@ -1,0 +1,39 @@
+<mat-card class="">
+    <mat-card-title class="title">Bem Vindo</mat-card-title>
+    <mat-card-subtitle class="subtitle">teste</mat-card-subtitle>
+
+    <ul>
+        <li *appFor="let n em [1, 2, 3]">{{n}}</li>
+    </ul>
+
+    <!-- 
+    <button type="button" [disabled]="canClick" (click)="sayMessage()">
+        Trigger alert message
+    </button>
+
+    <p [id]="sayHelloId" [style.color]="fontColor">
+        You can set my color in the component!
+    </p>
+
+    <p>My color is {{ fontColor }}</p> -->
+
+
+    <!-- *********************** -->
+
+    <!-- <h2>Hello World: ngIf!</h2>
+
+    <button type="button" (click)="onEditClick()">Make text editable!</button>
+
+    <div *ngIf="canEdit; else noEdit">
+        <p>You can edit the following paragraph.</p>
+    </div>
+
+    <ng-template #noEdit>
+        <p>The following paragraph is read only. Try clicking the button!</p>
+    </ng-template>
+
+    <p [contentEditable]="canEdit">{{ message }}</p> -->
+
+
+     <!-- *********************** -->
+</mat-card>

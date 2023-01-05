@@ -1,0 +1,9 @@
+.sidenav{
+    background-color: rgb(192, 203, 247);
+    width: 200px;
+}
+
+.content{
+    padding: 15px;
+    background-color: #fff
+}

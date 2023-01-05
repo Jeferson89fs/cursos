@@ -1,0 +1,17 @@
+.red{
+    color: red;
+}
+
+.footer{
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    font-size: 1rem;
+    font-weight: 300;
+    justify-content: flex-end;    
+
+}
+
+.v-middle{
+    vertical-align: middle;
+}

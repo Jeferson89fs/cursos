@@ -1,0 +1,24 @@
+{
+  "products": [
+    {
+      "id": 3,
+      "name": "Biscicleta",
+      "price": 2299
+    },
+    {
+      "name": "geladeira",
+      "price": "35900.00",
+      "id": 4
+    },
+    {
+      "name": "teste",
+      "price": "55.12",
+      "id": 8
+    },
+    {
+      "name": "vvv",
+      "price": "85419854",
+      "id": 9
+    }
+  ]
+}

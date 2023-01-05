@@ -1,0 +1,24 @@
+<p [id]="atributeLegal">product-create works!</p>
+
+<mat-card>
+    <mat-card-title>Novo Produto</mat-card-title>
+    <form action="">
+        <mat-form-field>
+            <input matInput placeholder="Nome" name="name" [(ngModel)]="product.name">
+        </mat-form-field>
+
+        <mat-form-field>
+            <input matInput placeholder="Preço" name="price" [(ngModel)]="product.price">
+        </mat-form-field>
+
+
+        <button mat-raised-button (click)="cancel()" color="secundary">
+            Cancelar
+        </button>
+
+        <button mat-raised-button (click)="createProduct()" color="primary">
+            Salvar
+        </button>
+    </form>
+
+</mat-card>
